@@ -1,0 +1,139 @@
+ <!DOCTYPE html>
+ <html lang="en" dir="ltr">
+
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+   <title>Chaperone</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+ <body>
+  <section class="header-signup">
+    <!-- navigation -->
+    <nav>
+  <a href="home_li.html"> <img src="logo.png" /></a>
+  <div class="nav-links" id="navlinks">
+    <i class="fa fa-window-close" onclick="hidemenu()"></i>
+    <ul>
+      <li><a href="home_li.html">HOME</a></li>
+      <li><a href="about_li.html">ABOUT US</a></li>
+      <li><a href="history_li.html">BOOKED SERVICES</a></li>
+      <li><a href="yourprofile_li.html">YOUR PROFILE</a></li>
+    </ul>
+  </div>
+  <i class="fa fa-bars" onclick="showmenu()"></i>
+
+    </nav>
+    <!-- background main -->
+<div class="signup-page"> <br>
+  <h1>NANNY FOR KID</h1>
+  <p> <i>Book now!</i>
+  </p>
+  <div class="s3-form">
+    <form action="book_li.php" method="post" id="s3">
+
+  <select name="age" id="age-select_s3">
+      <option value="">--Please choose a age--</option>
+      <option value="3-5 years old">3-5 years old</option>
+      <option value="5-8 years old">5-8 years old</option>
+      <option value="8-12 years old">8-12 years old</option>
+      <option value="12-15 years old">12-15 years old</option>
+      <option value="15-18 years old">15-18 years old</option>
+  </select>
+  <br>
+  <select name="region" id="region-select_s3">
+      <option value="">--Please choose a region--   </option>
+      <option value="Mumbai Western">Mumbai Western</option>
+      <option value="Mumbai south & central">Mumbai south & central</option>
+      <option value="Navi Mumbai">Navi Mumbai</option>
+      <option value="Thane">Thane</option>
+      <option value="Kalyan">Kalyan</option>
+      <option value="Ulhasnagar">Ulhasnagar</option>
+  </select>
+  <br>
+  <select name="gender" id="gender-select_s3">
+      <option value="">--Please choose a gender--</option>
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+  </select>
+  <br>
+<input type="date" id="date-select_s3" name="date"
+       value="2022-10-7"
+       min="2022-10-7">
+       <select name="time" id="time-select_s1">
+           <option value="">--Please choose a time slot--   </option>
+           <option value="6:00am to 9:00am">6:00am to 9:00am</option>
+           <option value="9:00am to 12:00pm">9:00am to 12:00pm</option>
+           <option value="12:00pm to 3:00pm">12:00pm to 3:00pm</option>
+           <option value="3:00pm to 6:00pm">3:00pm to 6:00pm</option>
+           <option value="6:00pm to 9:00pm">6:00pm to 9:00pm</option>
+       </select>
+       <select name="purpose" id="purpose-select_s3">
+           <option value="">--Please choose a purpose--</option>
+           <option value="Look after">Look after</option>
+           <option value="Drive somewhere">Drive somewhere</option>
+           <option value="Tutor Math">Tutor Math</option>
+           <option value="Tutor English">Tutor English</option>
+           <option value="Tutor Science">Tutor Science</option>
+           <option value="Tutor Hindi">Tutor Hindi</option>
+
+       </select>
+
+       <select name="payment" id="payment-select_s3">
+        <option value="">--Please choose a payment option-- </option>
+        <option>Razorpay</option>
+        <option>COD</option>
+    </select>
+
+       <br>
+
+      <h5 style="font-weight:normal">Find a nanny for your kid based on your requirements</h5> <br>
+      <button type="submit" class="hero-btn brown-btn">Book Now</button>
+
+
+    </form>
+
+  </div>
+
+</div>
+  </section>
+  <!-- next sections of services*/ -->
+
+
+
+
+  <!-- footer -->
+  <section class="footer">
+    <h4> About Us</h4>
+    <p>
+      The most trusted caretaking service in India for over a decade.<br /><br />
+    </p>
+  <div class="icons">
+
+  <i class="fa fa-facebook-square" aria-hidden="true"></i>
+  <i class="fa fa-instagram" aria-hidden="true"> </i>
+  <i class="fa fa-twitter" aria-hidden="true"></i>
+
+
+  </div>
+  </section>
+  <script>
+    var navLinks=document.getElementById("navlinks");
+    function showMenu()
+    {
+      navLinks.style.right="0";
+    }
+    function hideMenu()
+    {
+      navLinks.style.right="-200px";
+    }
+  </script>
+ </body>
+
+ </html>

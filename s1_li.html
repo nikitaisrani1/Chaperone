@@ -1,0 +1,126 @@
+ <!DOCTYPE html>
+ <html lang="en" dir="ltr">
+
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+   <title>Chaperone</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+ <body>
+  <section class="header-signup">
+    <!-- navigation -->
+    <nav>
+<a href="home_li.html"> <img src="logo.png" /></a>
+  <div class="nav-links" id="navlinks">
+    <i class="fa fa-window-close" onclick="hidemenu()"></i>
+    <ul>
+      <li><a href="home_li.html">HOME</a></li>
+      <li><a href="about_li.html">ABOUT US</a></li>
+      <li><a href="history_li.html">BOOKED SERVICES</a></li>
+      <li><a href="yourprofile_li.php">YOUR PROFILE</a></li>
+    </ul>
+  </div>
+  <i class="fa fa-bars" onclick="showmenu()"></i>
+
+    </nav>
+    <!-- background main -->
+<div class="signup-page"> <br>
+  <h1>COMPANIONSHIP FOR ELDERS</h1>
+  <p> <i>Book now!</i>
+  </p>
+  <div class="s1-form">
+    <form action="s1_li.php" method="post" id="s1">
+
+  <select name="purpose" id="purpose-select_s1">
+      <option value="">--Please choose a purpose--</option>
+      <option value="grocery">Grocery Shopping</option>
+      <option value="cooking">Cooking</option>
+      <option value="caretaking">looking after</option>
+      <option value="exercise">Exercise/physical activity</option>
+      <option value="technology">Help in technology/bill payment</option>
+      <option value="stroll">stroll</option>
+  </select>
+  <br>
+  <select name="region" id="region-select_s1" required>
+      <option value="">--Please choose a region--   </option>
+      <option value="Mumbai Western">Mumbai Western</option>
+      <option value="Mumbai south & central">Mumbai south & central</option>
+      <option value="Navi Mumbai">Navi Mumbai</option>
+      <option value="Thane">Thane</option>
+      <option value="Kalyan">Kalyan</option>
+      <option value="Ulhasnagar">Ulhasnagar</option>
+  </select>
+  <br>
+  <select name="gender" id="gender-select_s1">
+      <option value="">--Please choose a gender--   </option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+  </select>
+  <br>
+<input type="date" id="date-select_s1" name="date"
+       value="2022-10-7"
+       min="2022-10-7" required>
+       <select name="time" id="time-select_s1" required>
+           <option value="">--Please choose a time slot--   </option>
+           <option value="batch1">6:00am to 9:00am</option>
+           <option value="batch2">9:00am to 12:00pm</option>
+           <option value="batch3">12:00pm to 3:00pm</option>
+           <option value="batch4">3:00pm to 6:00pm</option>
+           <option value="batch5">6:00pm to 9:00pm</option>
+       </select>
+       <select name="payment" id="payment-select_s1">
+        <option value="">--Please choose a payment option--   </option>
+        <option>Razorpay</option>
+        <option>COD</option>
+    </select>
+      <h5 style="font-weight:normal">Find a companion based on your requirements</h5> <br>
+      <button type="submit" class="hero-btn brown-btn">Book Now</button>
+
+
+    </form>
+
+  </div>
+
+</div>
+  </section>
+  <!-- next sections of services*/ -->
+
+
+
+
+  <!-- footer -->
+  <section class="footer">
+    <h4> About Us</h4>
+    <p>
+      The most trusted caretaking service in India for over a decade.<br /><br />
+    </p>
+  <div class="icons">
+
+  <i class="fa fa-facebook-square" aria-hidden="true"></i>
+  <i class="fa fa-instagram" aria-hidden="true"> </i>
+  <i class="fa fa-twitter" aria-hidden="true"></i>
+
+
+  </div>
+  </section>
+  <script>
+    var navLinks=document.getElementById("navlinks");
+    function showMenu()
+    {
+      navLinks.style.right="0";
+    }
+    function hideMenu()
+    {
+      navLinks.style.right="-200px";
+    }
+  </script>
+ </body>
+
+ </html>

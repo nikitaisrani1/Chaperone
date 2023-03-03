@@ -1,0 +1,87 @@
+ <!DOCTYPE html>
+ <html lang="en" dir="ltr">
+
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+   <title>Chaperone</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+ <body>
+  <section class="header-login">
+    <!-- navigation -->
+    <nav>
+  <a href="index.html"> <img src="logo.png" /></a>
+  <div class="nav-links" id="navlinks">
+    <i class="fa fa-window-close" onclick="hidemenu()"></i>
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT US</a></li>
+      <li><a href="login.html">LOG IN</a></li>
+      <li><a href="contactus.html">CONTACT US</a></li>
+    </ul>
+  </div>
+  <i class="fa fa-bars" onclick="showmenu()"></i>
+
+    </nav>
+    <!-- background main -->
+<div class="login-page">
+  <h1>LOG IN</h1>
+  <p> <i>Welcome back</i>
+  </p>
+  <div class="login-form">
+    <form method="post" action="login.php">
+
+      <input type="email" placeholder="Enter your Email" id="email" required name="email">
+      <input type="password" placeholder="Enter your password" id="pass" required name="pass">
+      <br>
+      <input type="submit" class="hero-btn brown-btn" id="signIn">
+
+    </form>
+
+  </div>
+ <a href="forgotpass.html">Forgot password?</a> <br>
+ <a href="signup.html">Don't have an account? Sign Up</a>
+</div>
+  </section>
+  <!-- next sections of services*/ -->
+
+
+
+
+  <!-- footer -->
+  <section class="footer">
+    <h4> About Us</h4>
+    <p>
+      The most trusted caretaking service in India for over a decade.<br /><br />
+    </p>
+  <div class="icons">
+
+  <i class="fa fa-facebook-square" aria-hidden="true"></i>
+  <i class="fa fa-instagram" aria-hidden="true"> </i>
+  <i class="fa fa-twitter" aria-hidden="true"></i>
+
+
+  </div>
+  </section>
+  <script>
+    var navLinks=document.getElementById("navlinks");
+    function showMenu()
+    {
+      navLinks.style.right="0";
+    }
+    function hideMenu()
+    {
+      navLinks.style.right="-200px";
+    }
+  </script>
+  
+ </body>
+
+ </html>

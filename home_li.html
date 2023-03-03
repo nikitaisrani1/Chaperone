@@ -1,0 +1,160 @@
+ <!DOCTYPE html>
+ <html lang="en" dir="ltr">
+
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+   <title>Chaperone</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+ <body>
+  <section class="header">
+    <!-- navigation -->
+    <nav>
+<a href="home_li.html"> <img src="logo.png" /></a>
+  <div class="nav-links" id="navlinks">
+    <i class="fa fa-window-close" onclick="hidemenu()"></i>
+    <ul>
+      <li><a href="home_li.html">HOME</a></li>
+      <li><a href="about_li.html">ABOUT US</a></li>
+      <li><a href="history_li.php">BOOKED SERVICES</a></li>
+      <li><a href="yourprofile_li.php">YOUR PROFILE</a></li>
+    </ul>
+  </div>
+  <i class="fa fa-bars" onclick="showmenu()"></i>
+
+    </nav>
+    <!-- background main -->
+<div class="text-box-home_li">
+  <h1>HERE FOR YOU</h1>
+  <p>25000+ happy customers have chosen Chaperone
+  </p>
+  <a href="s1_li.html" class="hero-btn-home_li">COMPANIONSHIP FOR ELDERS</a><br>
+  <a href="s2_li.html" class="hero-btn-home_li">BABY SITTER</a><br>
+  <a href="s3_li.html" class="hero-btn-home_li">NANNY FOR KID</a>
+</div>
+  </section>
+  <!-- next sections of services*/ -->
+  <section class="services">
+    <h1>Services we offer</h1>
+    <p>Best quality services offered since 2007</p>
+  <div class="row">
+    <div class="course-col">
+      <h3>COMPANIONSHIP FOR ELDERS</h3>
+      <p>
+        We assist your close ones in performing tasks such as getting groceries to cooking and performing laundry.Their well being is our first priority
+      </p>
+    </div>
+    <div class="course-col">
+      <h3>BABY SITTER</h3>
+      <p>
+        We help you have a tension free balanced life even after having a kid.Their safety is our guarentee!
+      </p>
+    </div>
+    <div class="course-col">
+      <h3>NANNY FOR KID</h3>
+      <p>
+        We assist taking care of your kid when you have places to be. We stay with the kids and assist them with homework as well as cook for them!
+      </p>
+    </div>
+  </div>
+  </section>
+  <!-- creators -->
+  <section class="creators">
+    <h1>The Company Creators</h1>
+    <p>
+      The students of vesit D15B in the year 2022
+    </p>
+    <div class="rows">
+      <div class="creators-col">
+        <img src="c1.jpg" />
+        <div class="layer">
+          <h3>Nikita and Jalpriya</h3>
+        </div>
+      </div>
+      <div class="creators-col">
+        <img src="c2.jpeg" />
+        <div class="layer">
+          <h3>Harpreet and Tejal</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- reviews -->
+  <section class="reviews">
+  <h1>What Our Customers Say</h1>
+  <p>
+    Reviews by our most regular and loved customers!
+  </p>
+  <div class="row">
+  <div class="reviews-col">
+    <img src="profile1.jpeg" />
+    <div>
+    <p>
+      Safest service around the country, the staff is experienced and kind. I felt safe leaving my siblings when no one was around to take care of them
+    </p>
+    <h3>Anahita Pandey</h3>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    </div>
+  </div>
+  <div class="reviews-col">
+    <img src="profile2.jpg" />
+    <div>
+    <p>
+      Everytime I have to make buisness trips as a batchelor this company has been so useful. Love the camera feature so I am always updated with how my parents are.
+    </p>
+    <h3>Manohar Shroff</h3>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    </div>
+  </div>
+</div>
+  </section>
+  <!-- contact us -->
+  <section class="contact">
+    <h1>Address any of<br />your concerns</h1>
+    <a href="contactus_li.html" class="hero-btn">Contact Us</a>
+
+  </section>
+  <!-- footer -->
+  <section class="footer">
+    <h4> About Us</h4>
+    <p>
+      The most trusted caretaking service in India for over a decade.<br /><br />
+    </p>
+  <div class="icons">
+
+  <i class="fa fa-facebook-square" aria-hidden="true"></i>
+  <i class="fa fa-instagram" aria-hidden="true"> </i>
+  <i class="fa fa-twitter" aria-hidden="true"></i>
+
+
+  </div>
+  </section>
+  <script>
+    var navLinks=document.getElementById("navlinks");
+    function showMenu()
+    {
+      navLinks.style.right="0";
+    }
+    function hideMenu()
+    {
+      navLinks.style.right="-200px";
+    }
+  </script>
+ </body>
+
+ </html>

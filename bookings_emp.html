@@ -1,0 +1,116 @@
+ <!DOCTYPE html>
+ <html lang="en" dir="ltr">
+
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+   <title>Chaperone</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,400;1,700;1,900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head>
+
+ <body>
+   <section class="header-signup">
+     <!-- navigation -->
+     <nav>
+       <a href="admin_profile.html"> <img src="logo.png" /></a>
+       <div class="nav-links" id="navlinks">
+         <i class="fa fa-window-close" onclick="hidemenu()"></i>
+         <ul>
+           <li><a href="admin_profile.html">HOME</a></li>
+           <li><a href="bookings_emp.html">BOOKED SERVICES</a></li>
+         </ul>
+       </div>
+       <i class="fa fa-bars" onclick="showmenu()"></i>
+
+     </nav>
+      <h1 style="display:inherit;
+      flex-basis: 200%;
+      text-align: center;
+      text-size:72px;
+      color: white;">BOOKINGS FOR TODAY</h1>
+     <!-- background main -->
+     <div class="history-page">
+
+       <br>
+
+       <div class="history-col">
+         <div>
+
+           <h4>
+             Category:<span id="namect_history3"> Elder Care</span><br>
+             Slot:<span id="namect_history3"> 12pm to 3pm</span><br>
+             Address:<span id="namect_history3"> 123 c wing maple,khar west</span><br>
+             Phone no.:<span id="namect_history3">9999999999</span><br>
+           </h4>
+
+         </div>
+       </div>
+       </p>
+       <div class="history-col">
+         <div>
+
+           <h4>
+             Category:<span id="namect_history3"> Baby Sitting</span><br>
+             Slot:<span id="namect_history3"> 3pm to 6pm</span><br>
+             Address:<span id="namect_history3"> 124 c wing maple,khar west</span><br>
+             Phone no.:<span id="namect_history3">8888888888</span><br>
+           </h4>
+
+         </div>
+       </div>
+       </p>
+
+
+       <div class="history-col">
+         <div>
+           <h4>
+             Category:<span id="namect_history3"> Baby Sitting</span><br>
+             Slot:<span id="namect_history3"> 6pm to 9pm</span><br>
+             Address:<span id="namect_history3"> 123 c wing maple leaf,kurla west</span><br>
+             Phone no.:<span id="namect_history3"> 7986959392</span><br>
+
+
+           </h4>
+
+         </div>
+       </div>
+     </div>
+   </section>
+   <!-- next sections of services*/ -->
+
+
+
+
+   <!-- footer -->
+   <section class="footer">
+     <h4> About Us</h4>
+     <p>
+       The most trusted caretaking service in India for over a decade.<br /><br />
+     </p>
+     <div class="icons">
+
+       <i class="fa fa-facebook-square" aria-hidden="true"></i>
+       <i class="fa fa-instagram" aria-hidden="true"> </i>
+       <i class="fa fa-twitter" aria-hidden="true"></i>
+
+
+     </div>
+   </section>
+   <script>
+     var navLinks = document.getElementById("navlinks");
+
+     function showMenu() {
+       navLinks.style.right = "0";
+     }
+     funtion hideMenu() {
+       navLinks.style.right = "-200px";
+     }
+   </script>
+ </body>
+
+ </html>

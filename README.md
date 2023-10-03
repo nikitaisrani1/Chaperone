@@ -18,6 +18,5 @@ The basic technologies required to run this:
 4. Firebase
 5. Operating System - Windows 7/8.1/10
 
-Thankyou
 
 Hosted Link: https://chaperonerospl.netlify.app/

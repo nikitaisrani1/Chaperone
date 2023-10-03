@@ -1,4 +1,4 @@
-# Rospl_Open_Project
+# Rospl Open Project
 We have created this GitHub Repository to Contribute to open source project as a part of our ROSPL Lab 2
 
 What is ROSPL? 

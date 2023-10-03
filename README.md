@@ -12,11 +12,11 @@ It will allow users to book a companion service, babysitter or a nanny for kids.
 
 The basic technologies required to run this:
 
-Xampp server
-Canva
-Node.js
-Firebase
-Operating System - Windows 7/8.1/10
+1. Xampp server
+2. Canva
+3. Node.js
+4. Firebase
+5. Operating System - Windows 7/8.1/10
 
 Thankyou
 
